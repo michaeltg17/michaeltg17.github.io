@@ -276,6 +276,41 @@ body {
   text-decoration: none;
 }
 
+/* Mobile */
+@media screen and (max-width: 640px) {
+  .page {
+    padding: 16px;
+  }
+
+  .header h1 {
+    font-size: 18pt;
+  }
+
+  .header-contact {
+    flex-wrap: wrap;
+  }
+
+  .experience-header {
+    flex-wrap: wrap;
+    gap: 2px 8px;
+  }
+
+  .experience-date {
+    flex-basis: 100%;
+  }
+
+  .experience-logo,
+  .client-logo {
+    width: 32px;
+    height: 32px;
+  }
+
+  .oss-list,
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Print styles */
 @media print {
   body {
