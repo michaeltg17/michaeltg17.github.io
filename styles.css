@@ -80,6 +80,10 @@ body {
   color: #181717;
 }
 
+.contact-item.pdf .icon {
+  color: #d52b2e;
+}
+
 .header-contact a {
   color: #2b5797;
   text-decoration: none;
